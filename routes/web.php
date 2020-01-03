@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::post('/abc', function () {
     return view('welcome');
 });
+
+Route::post('/user', 'User@index');
